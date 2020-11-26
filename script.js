@@ -8,7 +8,7 @@ winMessage.style.display = "none"; //laimejimo pranesimas zaidimo pradzioje nesi
 
 let gamePaused = false;
 
-let cardColors = ["red", "yellow", "blue", "green", "pink"];
+let cardColors = ["#00b3b3", "#0066cc", "#e6005c", "#527a7a", "#5900b3"];
 
 let cards = [];
 
@@ -19,7 +19,7 @@ let lastCard = null;
 function createCards() {
 	//// cardColors = cardColors.concat(cardColors)//concat - padvigubina
 	for (let x = 0; x < cardColors.length; x++) {
-		for (let i = 0; i < 2; i++) {
+		for (let i = 0; i < 20; i++) {
 			cards.push(cardColors[x]);
 		}
 	}
